@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio04</title>
+    <style>
+        body {
+            font: normal 28pt Arial;
+        }
+    </style>
+</head>
+    <body>
+        <script>
+            var nome = window.prompt('Qual seu nome?')
+            document.write(`Seu nome tem ${nome.length} letras.`)
+            // pode adicionar tagas do html tambem
+            // document.write(`Seu nome tem <strong> ${nome.length} </strong> letras.`)
+
+            // Formatação de numero -> n1.toFixed(2), dois numeros apos o ponto
+            // Formatação de texto -> n1.replace('','') troca um texto por outro
+            var n1 = 1440.6
+            n1 = n1.toFixed(2)
+            document.write(n1)
+
+            // Localizar String -> n1.toLocalString('pt-br', {style: 'currency', currency: 'BRL'})
+        </script>
+    </body>
+</html>
