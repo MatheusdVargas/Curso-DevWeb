@@ -1,0 +1,9 @@
++ = soma ou concatenação
+- = subtração
+* = multiplicação
+/ = divisão
+% = resto de uma divisão
+** = potenciação
+++ = incrementa 1
+-- = decrescenta 1
+=== = identico (do mesmo tipo)

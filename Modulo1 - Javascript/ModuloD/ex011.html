@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+</head>
+    <body>
+        <h1>Nacionalidades</h1>
+        Digite seu País: <input type="text" name="txtNac" id="textNac">
+        <input type="button" value="confirmar" onclick="nacionalidade()">
+        <div id="result">
+
+        </div>
+        <script>
+            function nacionalidade() {
+                var nac = window.document.getElementById('textNac')
+                var result = window.document.getElementById('result')
+                if(nac == 'Brasil' || 'brasil') {
+                    result.innerHTML = ''
+                    result.innerHTML += 'Você é brasileiro'
+                } else {
+                    result.innerHTML = ''
+                    result.innerHTML += 'Você é estranjeiro'
+                }
+            }
+        </script>
+    </body>
+</html>
