@@ -5,11 +5,6 @@ Este repositório contém os exercícios e projetos desenvolvidos durante o curs
 ## Objetivo  
 Aprender os fundamentos do desenvolvimento web, combinando estrutura (HTML5), estilização (CSS3) e interatividade (JavaScript) para criar páginas dinâmicas e responsivas.  
 
-## Estrutura do Repositório  
-- **Aulas**: Exemplos e conteúdos vistos durante as aulas.  
-- **Exercícios**: Atividades práticas para fixar os conceitos.  
-- **Projetos**: Aplicações completas e desafiadoras que utilizam HTML, CSS e JavaScript.  
-
 ## Tecnologias  
 - **HTML5**: Estruturação do conteúdo.  
 - **CSS3**: Estilização e layouts responsivos.  
