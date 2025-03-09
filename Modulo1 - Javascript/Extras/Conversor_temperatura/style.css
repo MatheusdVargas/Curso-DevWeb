@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+h1 {
+    color: rgb(35, 37, 199);
+}
+form {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+input, select, button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: large;
+}
+button {
+    cursor: pointer;
+}
+p {
+    font-weight: bold;
+    margin: 0;
+}
